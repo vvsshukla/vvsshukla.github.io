@@ -285,6 +285,7 @@ function getBackButton() {
 homeButton.addEventListener('click', function () {
     preferencesButton.classList.remove("active");
     homeButton.classList.add("active");
+    backButton.style.display = 'none';
     loadGallerySections();
 });
 
