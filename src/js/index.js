@@ -1,5 +1,16 @@
 //Unsplash Api Initialization
 import { createApi } from "unsplash-js";
+import sculptureImage from '../images/sculpture.jpg';
+import paintingImage from '../images/painting.jpg';
+import sketchImage from '../images/sketch.jpg';
+import monumentImage from '../images/monument.jpg';
+import texturesImage from '../images/textures.jpg';
+import animationsImage from '../images/animations.jpg';
+import architectureImage from '../images/architecture.jpg';
+import fineArtImage from '../images/fine_art.jpg';
+import modernArtImage from '../images/modern_art.jpg';
+import cavesImage from '../images/caves.jpg';
+import classicArtImage from '../images/classic_art.jpg';
 const unsplash = createApi({
     accessKey: 'NjndX8n36P_kMDVOMhYmt6W0md3kiZmXk-OaGZ5N2vg'
 });
@@ -9,57 +20,57 @@ let gallerySections = [
     {
         id: 1,
         title: 'sculptures',
-        url: '../images/sculpture.jpg'
+        url: sculptureImage
     },
     {
         id: 2,
         title: 'painting',
-        url: '../images/painting.jpg'
+        url: paintingImage
     },
     {
         id: 3,
         title: 'sketch art',
-        url: '../images/sketch.jpg'
+        url: sketchImage
     },
     {
         id: 4,
         title: 'monument',
-        url: '../images/monument.jpg'
+        url: monumentImage
     },
     {
         id: 5,
         title: 'textures',
-        url: '../images/textures.jpg'
+        url: texturesImage
     },
     {
         id: 6,
         title: 'animation',
-        url: '../images/animations.jpg'
+        url: animationsImage
     },
     {
         id: 7,
         title: 'architecture',
-        url: '../images/architecture.jpg'
+        url: architectureImage
     },
     {
         id: 8,
         title: 'fine art',
-        url: '../images/fine_art.jpg'
+        url: fineArtImage
     },
     {
         id: 9,
         title: 'modern art',
-        url: '../images/modern_art.jpg'
+        url: modernArtImage
     },
     {
         id: 10,
         title: 'caves',
-        url: '../images/caves.jpg'
+        url: cavesImage
     },
     {
         id: 11,
         title: 'classic art',
-        url: '../images/classic_art.jpg'
+        url: classicArtImage
     }
 ];
 const main = document.querySelector('#main');
