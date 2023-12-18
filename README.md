@@ -13,7 +13,7 @@ Artify is a virtual art gallery to explore diversity in the creativity. It is a 
 
 **Steps to use Unsplash Api**
 - Register to https://unsplash.com/. Create application on https://unsplash.com/developers. Copy Access Key under Keys section.
-- Install unsplash-js dependency in you application using npm install unsplash-js.
+- Install unsplash-js dependency in you application using **npm install unsplash-js**.
 - For using it in the application to search photos from specific gallery section 'monument', use below code:
 ```
 import { createApi } from "unsplash-js";    
